@@ -27,7 +27,7 @@ class Delecao{
             //se apagar o registro, volta para a tela de lista de usuario
             if($stmt -> rowCount() > 0){
                 $resultadoUpdate ="OK";
-                header("location: /Projeto/classes/sucessoApagar.php");
+                header("location: /FashionAtacado/classes/sucessoApagar.php");
                 exit;
             }
         } catch(PDOException $e){
@@ -58,7 +58,7 @@ class Delecao{
             //se apagar o registro, volta para a tela de lista de usuario
             if($stmt -> rowCount() > 0){
                 $resultadoUpdate ="OK";
-                header("location: /Projeto/classes/sucessoApagarCarrossel.php");
+                header("location: /FashionAtacado/classes/sucessoApagarCarrossel.php");
                 exit;
             }
         } catch(PDOException $e){
@@ -89,7 +89,7 @@ class Delecao{
             //se apagar o registro, volta para a tela de lista de usuario
             if($stmt -> rowCount() > 0){
                 $resultadoUpdate ="OK";
-                header("location: /Projeto/carrinho.php");
+                header("location: /FashionAtacado/carrinho.php");
                 exit;
             }
         } catch(PDOException $e){
@@ -120,7 +120,7 @@ class Delecao{
             //se apagar o registro, volta para a tela de lista de usuario
             if($stmt -> rowCount() > 0){
                 $resultadoUpdate ="OK";
-                header("location: /Projeto/carrinhoProdutos.php");
+                header("location: /FashionAtacado/carrinhoProdutos.php");
                 exit;
             }
         } catch(PDOException $e){
