@@ -32,7 +32,7 @@ class Insercao
 
             if ($stmt->rowCount() > 0) {
                 $resultadoInsert = "OK";
-                header('location: /Projeto/table.php');
+                header('location: /FashionAtacado/table.php');
                 exit;
             }
         } catch (PDOException $erro) {
@@ -159,7 +159,7 @@ class Insercao
 
             if ($stmt->rowCount() > 0) {
                 $resultadoInsert = "OK";
-                header('location: /Projeto/index.php#anchorret');
+                header('location: /FashionAtacado/index.php#anchorret');
                 exit;
             }
         } catch (PDOException $erro) {
@@ -187,7 +187,7 @@ class Insercao
 
             if ($stmt->rowCount() > 0) {
                 $resultadoInsert = "OK";
-                header('location: /Projeto/produtosPagina2.php#anchorret');
+                header('location: /FashionAtacado/produtosPagina2.php#anchorret');
                 exit;
             }
         } catch (PDOException $erro) {
